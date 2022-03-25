@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+drf-yasg = "*"
+django-graphql-jwt = "*"
+django-cors-headers = "*"
+graphene-django = "*"
+graphene-file-upload = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.9"
